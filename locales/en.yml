@@ -1,3 +1,9 @@
 ---
 en:
-  hello: "Hello"
+  about: About
+  games: Games
+  rules: Rules
+  sponsors: Sponsors
+  venue: Venue
+  register: Register
+  register_now: Register now

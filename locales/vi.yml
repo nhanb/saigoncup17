@@ -1,3 +1,9 @@
 ---
 vi:
-  hello: "Hế lô"
+  about: Giới thiệu
+  games: Tựa game
+  rules: Thể thức
+  sponsors: Tài trợ
+  venue: Địa điểm
+  register: Đăng ký
+  register_now: Đăng ký ngay
