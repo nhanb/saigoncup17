@@ -149,6 +149,11 @@ p a {
     padding: 10px 20px;
     font-size: 25px;
     font-weight: bold; }
+    .footer .social-link svg {
+      width: 30px;
+      height: 30px;
+      float: right;
+      fill: currentColor; }
     .footer .social-link.facebook {
       background-color: #3b5999; }
       .footer .social-link.facebook:hover {
