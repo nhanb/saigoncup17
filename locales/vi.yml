@@ -11,8 +11,21 @@ vi:
   what_is_sgc: Saigon Cup là gì?
   sgc_is: |
     Ra đời từ năm 2014 với mục đích nâng tầm cộng đồng game đối kháng Việt,
-    cộng đồng Street Fighter Vietnam tại thành phố Hồ Chí Minh với ước mơ vườn
-    mình ra biển lớn đã blah blah blah.
+    cộng đồng Street Fighter Vietnam tại thành phố Hồ Chí Minh với ước mơ vươn
+    mình ra biển lớn đã cùng nhau tạo nên một giải đấu quốc tế ngay tại Việt
+    Nam, điều mà trước đó và cho đến nay chưa có một nhà tổ chức nào khác ở
+    Việt Nam làm được. Với sự hậu thuẫn từ phía nhà sản xuất CAPCOM, 2017 là
+    năm thứ ba Saigon Cup được đưa vào hệ thống Capcom Pro Tour qua đó thu
+    hút rất nhiều những hảo thủ tầm cỡ trong khu vực và thế giới đến tranh tài.
+    2017 cũng là năm đầu tiên Saigon Cup mở rộng từ một giải đấu Street Fighter
+    lên thành một giải game đối kháng tổng hợp với 2 tựa game khác được đưa vào
+    chương trình thi đấu là GUILTY GEAR XRD REVELATOR và BLAZBLUE CENTRAL
+    FICTION.
+
+  memorable: |
+    Cùng với giải đấu chính là STREET FIGHTER V, Saigon Cup 2017 thực sự hứa
+    hẹn sẽ là ngày hội đáng nhớ nhất trong năm dành cho tất cả những ai đã lớn
+    lên và gắn bó với dòng game đối kháng tại Việt Nam.
 
   competitive_games: Game thi đấu
   sfv_single: Cá nhân (CPT Ranking - 21/5)
@@ -23,9 +36,39 @@ vi:
     21/5/2017 sẽ được thông báo trước giải 2 tuần.
 
   rules_regulations: Thể thức & quy định
+
   ps4: |
-    Tất cả 4 giải sẽ thi đấu dười hình thức loại kép (double elimination) với
+    1. Tất cả 4 giải sẽ thi đấu dười hình thức loại kép (double elimination) với
     nền máy là SONY PlayStation 4.
+
+  bo3: |
+    2. Tất cả các trận đấu sẽ diễn ra với thể thức BO3 (đánh 3 lấy 2). Riêng
+    top 8 của Street Fighter V (cá nhân) diễn ra với thể thức BO5 (đánh 5 lấy
+    3).
+
+  losers: |
+    3. Đối với trận chung kết tổng (Grand Final), người chơi từ nhánh thua sẽ
+    phải thắng 2 set để giành chức vô địch cuối cùng.
+
+  register_early: |
+    4. Ban tổ chức cho phép người chơi đăng ký tại chỗ vào ngày thi đấu, tuy
+    nhiên để đảm bảo cho sự kiện được diễn ra tốt nhất người chơi nên đăng ký
+    online trước.
+
+  brackets: |
+    5. Bảng thi đấu sẽ được công bố 3 ngày trước ngày bắt đầu giải trên fanpage
+    của Saigon FGC và nhóm facebook Street Fighter Vietnam.
+
+  equipment: |
+    6. Ban tổ chức sẽ cung cấp dụng cụ thi đấu sẵn tuy nhiên người chơi nên
+    mang theo dụng cụ riêng của mình để tiện cho việc bảo quản (được phép dùng
+    converter).
+
+  smoking: |
+    7. Không hút thuốc trong khu vực thi đấu để đảm bảo sức khỏe cho mọi người.
+
+  streaming: |
+    8. Giải đấu sẽ được stream trực tiếp tại twitch.tv/sfvietnam.
 
   prizes: Giải thưởng
   pot_goes_to_prize: |
