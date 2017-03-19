@@ -1,3 +1,5 @@
+activate :i18n, :langs => [:vi, :en]
+
 ###
 # Page options, layouts, aliases and proxies
 ###
