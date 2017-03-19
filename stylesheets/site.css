@@ -1,0 +1,143 @@
+body {
+  background-color: #111;
+  color: white;
+  font-family: Lato, sans-serif;
+  font-size: 18px; }
+
+a {
+  color: white; }
+
+.btn {
+  border-radius: 0;
+  background-color: #e0292b;
+  font-weight: bold;
+  font-family: Oswald, sans-serif; }
+
+.register-now {
+  padding: 10px 50px;
+  font-size: 30px;
+  text-transform: uppercase; }
+
+.logo {
+  height: 70px; }
+
+.header {
+  background-color: gray;
+  padding-bottom: 100px; }
+  .header .navbar {
+    font-size: 14px;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    vertical-align: middle; }
+    .header .navbar .register {
+      width: 200px;
+      font-size: 30px;
+      text-align: center;
+      padding: 30px; }
+      .header .navbar .register:hover {
+        background-color: #e0292b; }
+  .header .main-logo {
+    margin: 50px auto 20px auto; }
+  .header .subheader {
+    text-align: center;
+    font-size: 40px;
+    font-family: Oswald, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 50px; }
+
+.content {
+  text-align: center; }
+  .content h1 {
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 50px;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    -moz-border-image: -moz-linear-gradient(left, #111111 0%, #aaa 50%, #111111 100%);
+    -webkit-border-image: -webkit-linear-gradient(left, #111111 0%, #aaa 50%, #111111 100%);
+    border-image: linear-gradient(to right, #111111 0%, #aaa 50%, #111111 100%);
+    border-image-slice: 1; }
+  .content p {
+    line-height: 1.5;
+    margin-bottom: 40px;
+    margin-top: 20px; }
+
+.trailer {
+  max-height: 700px; }
+
+.game-logo {
+  padding: 20px; }
+
+.red-emphasis {
+  color: #df282a;
+  font-weight: bold; }
+
+ol {
+  margin-top: 20px; }
+  ol li {
+    display: list-item;
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 1.5em; }
+
+.prizes {
+  text-align: left; }
+
+.prize-list {
+  margin-left: 50px; }
+
+.organizers-row {
+  margin-bottom: 40px; }
+  .organizers-row p {
+    text-transform: uppercase;
+    font-weight: bold; }
+  .organizers-row img {
+    padding: 10px; }
+
+.venue-name {
+  margin-top: 30px;
+  font-weight: bold; }
+
+.venue-link {
+  color: #df282a; }
+  .venue-link:visited, .venue-link:hover, .venue-link:active {
+    color: #df282a; }
+
+.map {
+  margin-top: 30px;
+  margin-bottom: 50px; }
+
+.footer {
+  background-color: gray; }
+  .footer .hashtag {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px 0; }
+  .footer .social-link {
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: bold; }
+    .footer .social-link.facebook {
+      background-color: #3b5999; }
+      .footer .social-link.facebook:hover {
+        color: #3b5999;
+        background-color: white; }
+    .footer .social-link.twitter {
+      background-color: #0084b4; }
+      .footer .social-link.twitter:hover {
+        color: #0084b4;
+        background-color: white; }
+    .footer .social-link.youtube {
+      background-color: #c4302c; }
+      .footer .social-link.youtube:hover {
+        color: #c4302c;
+        background-color: white; }
+  .footer .copyright {
+    text-align: center;
+    padding: 20px; }
