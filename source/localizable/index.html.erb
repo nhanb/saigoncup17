@@ -5,7 +5,7 @@ title: Saigon Cup 2017
 <div class="header">
   <nav class="navbar">
     <div class="container">
-      <div class="navbar-header">
+      <div class="navbar-header hidden-xs hidden-sm">
         <span class="navbar-brand" href="#">
           <%= image_tag 'sgc-logo.png', :class => 'logo' %>
         </span>
@@ -40,8 +40,38 @@ title: Saigon Cup 2017
   </div>
 </div>
 
-<div class="container">
-  <h1>
-    <%= t(:hello) %> World
-  </h1>
+<div class="container content">
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h1><%= t('what_is_sgc') %></h1>
+      <p><%= t('sgc_is') %></p>
+      <%= image_tag 'trailer.png', :class => 'trailer center-block img-responsive' %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h1><%= t('competitive_games') %></h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
+      <%= image_tag 'sf-logo.png', :class => 'game-logo center-block img-responsive' %>
+      <p>
+        <%= t('sfv_single') %>
+        <br />
+        <%= t('sfv_team') %>
+      </p>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <%= image_tag 'bb-logo.png', :class => 'game-logo center-block img-responsive' %>
+      <p><%= t('single') %></p>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <%= image_tag 'gg-logo.png', :class => 'game-logo center-block img-responsive' %>
+      <p><%= t('single') %></p>
+    </div>
+  </div>
 </div>

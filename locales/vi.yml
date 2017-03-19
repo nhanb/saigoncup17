@@ -7,3 +7,14 @@ vi:
   venue: Địa điểm
   register: Đăng ký
   register_now: Đăng ký ngay
+
+  what_is_sgc: Saigon Cup là gì?
+  sgc_is: |
+    Ra đời từ năm 2014 với mục đích nâng tầm cộng đồng game đối kháng Việt,
+    cộng đồng Street Fighter Vietnam tại thành phố Hồ Chí Minh với ước mơ vườn
+    mình ra biển lớn đã blah blah blah.
+
+  competitive_games: Game thi đấu
+  sfv_single: Cá nhân (CPT Ranking - 21/5)
+  sfv_team: Đồng đội 3v3 (20/5)
+  single: Cá nhân (21/5)
