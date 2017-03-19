@@ -75,10 +75,9 @@ a {
   color: #df282a;
   font-weight: bold; }
 
-ol {
+.rules {
   margin-top: 20px; }
-  ol li {
-    display: list-item;
+  .rules p {
     text-align: left;
     line-height: 1.5;
     margin-bottom: 1.5em; }
