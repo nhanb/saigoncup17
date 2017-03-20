@@ -32,6 +32,9 @@ p a {
 .language-picker:hover {
   text-decoration: none; }
 
+.navbar-brand {
+  height: 100px; }
+
 .header {
   background-image: url("/images/bg.jpg");
   background-position: center;
@@ -45,9 +48,6 @@ p a {
     text-transform: uppercase;
     font-weight: bold;
     vertical-align: middle; }
-    @media (max-width: 991px) {
-      .header .navbar ul {
-        margin-top: 100px; } }
     .header .navbar .register {
       color: white;
       width: 200px;
