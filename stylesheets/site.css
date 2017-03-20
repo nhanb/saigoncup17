@@ -48,6 +48,9 @@ p a {
     text-transform: uppercase;
     font-weight: bold;
     vertical-align: middle; }
+    @media (min-width: 992px) {
+      .header .navbar .small-nav, .header .navbar .language-picker {
+        line-height: 50px; } }
     .header .navbar .register {
       color: white;
       width: 200px;
@@ -60,6 +63,10 @@ p a {
       .header .navbar .register:visited {
         text-decoration: none;
         color: white; }
+      @media (max-width: 991px) {
+        .header .navbar .register {
+          font-size: 20px;
+          padding: 10px; } }
     .header .navbar a {
       color: white; }
       .header .navbar a:hover {
