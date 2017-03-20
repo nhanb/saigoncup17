@@ -58,6 +58,10 @@ p
     font-weight: bold
     vertical-align: middle
 
+    @media (min-width: 992px)
+      .small-nav, .language-picker
+        line-height: 50px
+
     .register
       color: white
       width: 200px
@@ -70,6 +74,11 @@ p
       &:visited
         text-decoration: none
         color: white
+
+      @media (max-width: 991px)
+        font-size: 20px
+        padding: 10px
+
 
     a
       color: white
