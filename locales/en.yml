@@ -30,7 +30,8 @@ en:
   competitive_games: Games
   sfv_single: Single (CPT Ranking - May 21)
   sfv_team: Team 3v3 (May 20)
-  single: Single (May 21)
+  bb_single: Single (May 21)
+  gg_single: Single (May 20)
   schedule_tba: |
     Each game's tournament and streaming schedule on May 20th & 21st will be
     announced 2 weeks in advance.
