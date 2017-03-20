@@ -18,6 +18,8 @@ title: Saigon Cup 2017
   </defs>
 </svg>
 
+<% register_url = 'https://goo.gl/forms/3yOLox5AulwyW3uG3' %>
+
 <div class="header">
   <nav class="navbar">
     <div class="container">
@@ -34,7 +36,7 @@ title: Saigon Cup 2017
         <li><a href="#rules"><%= t('rules') %></a></li>
         <li><a href="#sponsors"><%= t('sponsors') %></a></li>
         <li><a href="#venue"><%= t('venue') %></a></li>
-        <li><a class="register btn"><%= t('register') %></a></li>
+        <li><a href="<%= register_url %>" class="register btn"><%= t('register') %></a></li>
       </ul>
     </div>
   </nav>
@@ -52,7 +54,7 @@ title: Saigon Cup 2017
     </div>
     <div class="row text-center">
       <div class="col-xs-12">
-        <a class="btn register-now" href="#"><%= t('register_now') %></a>
+        <a href="<%= register_url %>" class="btn register-now" href="#"><%= t('register_now') %></a>
       </div>
     </div>
   </div>
@@ -98,7 +100,7 @@ title: Saigon Cup 2017
     </div>
 
     <div class="col-xs-12">
-      <a class="btn register-now" href="#"><%= t('register_now') %></a>
+      <a href="<%= register_url %>" class="btn register-now" href="#"><%= t('register_now') %></a>
     </div>
   </div>
 
