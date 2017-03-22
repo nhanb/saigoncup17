@@ -39,9 +39,7 @@ end
 # Build-specific configuration
 configure :build do
   activate :gzip
-  # Minify CSS on build
+  activate :minify_html
   activate :minify_css
-
-  # Minify Javascript on build
   # activate :minify_javascript
 end
