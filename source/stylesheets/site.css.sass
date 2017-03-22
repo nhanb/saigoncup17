@@ -1,9 +1,12 @@
 $register-font-size: 30px
 $red-text: #df282a
 $red-button: #e0292b
+$background: #111
+$navbar-height: 100px
+$footer-background: #3b3b3b
 
 body
-  background-color: #111
+  background-color: $background
   color: white
   font-family: "Open Sans", sans-serif
   font-size: 18px
@@ -18,8 +21,6 @@ p
     &:visited
       text-decoration: none
       color: $red-text
-
-
 
 .btn
   border-radius: 0
@@ -41,12 +42,19 @@ p
     text-decoration: none
 
 .navbar-brand
-  height: 100px
+  height: $navbar-height
+
+.affix
+  background-color: $footer-background
+
+nav
+  transition: background-color 0.5s
+
 
 .header
   background-image: url('/images/bg.jpg')
   background-position: center
-  padding-bottom: 100px
+  padding: $navbar-height 0
 
   @media (max-width: 767px)
     padding-left: 20px
@@ -58,6 +66,15 @@ p
     font-weight: bold
     vertical-align: middle
 
+    .navbar-nav
+      li
+        a
+          padding-top: 0
+          padding-bottom: 0
+          height: $navbar-height
+          line-height: $navbar-height
+          vertical-align: middle
+
     @media (min-width: 992px)
       .small-nav, .language-picker
         line-height: 50px
@@ -65,19 +82,21 @@ p
     .register
       color: white
       width: 200px
+      height: $navbar-height
       font-size: $register-font-size
       text-align: center
-      padding: 30px
+      vertical-align: middle
+      line-height: $navbar-height
+      padding: 0
       &:hover, &:active
         background-color: $red-button
-        color: #111
+        color: $background
       &:visited
         text-decoration: none
         color: white
 
       @media (max-width: 991px)
-        font-size: 20px
-        padding: 10px
+        width: 140px
 
 
     a
@@ -107,9 +126,9 @@ p
     padding-bottom: 30px
     margin-bottom: 30px
 
-    -moz-border-image: -moz-linear-gradient(left, #111111 0%, #aaa 50%, #111111 100%)
-    -webkit-border-image: -webkit-linear-gradient(left, #111111 0%,#aaa 50%,#111111 100%)
-    border-image: linear-gradient(to right, #111111 0%,#aaa 50%,#111111 100%)
+    -moz-border-image: -moz-linear-gradient(left, $background 0%, #aaa 50%, $background 100%)
+    -webkit-border-image: -webkit-linear-gradient(left, $background 0%,#aaa 50%,$background 100%)
+    border-image: linear-gradient(to right, $background 0%,#aaa 50%,$background 100%)
     border-image-slice: 1
 
   p
@@ -170,7 +189,7 @@ p
   margin-bottom: 50px
 
 .footer
-  background-color: #3b3b3b
+  background-color: $footer-background
 
   .hashtag
     font-size: 30px
