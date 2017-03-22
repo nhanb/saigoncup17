@@ -75,6 +75,10 @@ nav
           line-height: $navbar-height
           vertical-align: middle
 
+          @media (max-width: 767px)
+            height: 50px
+            line-height: 50px
+
     @media (min-width: 992px)
       .small-nav, .language-picker
         line-height: 50px
@@ -240,3 +244,15 @@ nav
 
     span
       margin: 0 10px
+
+
+@media (max-width: 767px)
+  nav
+    li
+      display: inline-block
+
+      &.xs-right
+        float: right
+
+      &.xs-left
+        float: left
