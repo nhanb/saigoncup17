@@ -78,7 +78,7 @@ en:
     in addition to prize money & merchandise, top 16 players will earn Capcom
     Pro Tour points. Prize money or merchandise from sponsors will be promptly
     updated on the tournament's homepage and Saigon FGC fanpage.
-  prize_distribution: "Each tournament prize money is distributed as follows:"
+  prize_distribution: "Each tournament's prize money is distributed as follows:"
   single_prizes: '1. Single tournaments (Street Fighter V, Guilty Gear, BlazBlue):'
   champion: 'Champion: 60% pot'
   runner_up: 'Runner-up: 30%'
@@ -90,8 +90,8 @@ en:
   sponsors: sponsors
   press: Press
   be_our_sponsor: |
-    Are you a sponsor who wants to join us in Vietnam's largest fighting game
+    Are you a sponsor ready to join us in Vietnam's largest fighting game
     tournament, one of the most prestigious tournaments in Asia? Contact us at
-    hisashi.mitsui89@gmail.com.
+    <a href="mailto:hisashi.mitsui89@gmail.com">hisashi.mitsui89@gmail.com</a>.
 
   venue_address: 219 Lý Thường Kiệt, Ward 15, District 11, Hồ Chí Minh City
