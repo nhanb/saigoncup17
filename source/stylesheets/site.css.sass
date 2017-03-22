@@ -4,6 +4,7 @@ $red-button: #e0292b
 $background: #111
 $navbar-height: 100px
 $footer-background: #3b3b3b
+$xs-navbar-height: 50px
 
 body
   background-color: $background
@@ -76,8 +77,8 @@ nav
           vertical-align: middle
 
           @media (max-width: 767px)
-            height: 50px
-            line-height: 50px
+            height: $xs-navbar-height
+            line-height: $xs-navbar-height
 
     @media (min-width: 992px)
       .small-nav, .language-picker
@@ -122,7 +123,7 @@ nav
   text-align: center
 
   h1
-    margin-top: 70px
+    padding-top: $navbar-height
     font-weight: bold
     font-size: 50px
 
@@ -256,3 +257,7 @@ nav
 
       &.xs-left
         float: left
+
+  .content
+    h1
+      padding-top: $xs-navbar-height
