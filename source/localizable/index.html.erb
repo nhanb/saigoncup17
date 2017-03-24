@@ -20,14 +20,14 @@ title: Saigon Cup 2017
 
 <% register_url = 'https://goo.gl/forms/3yOLox5AulwyW3uG3' %>
 
-<div class="header">
+<div class="header" id="head">
 
   <nav id="top-nav" class="navbar navbar-fixed-top">
     <div class="container">
       <div class="navbar-header hidden-xs hidden-sm">
-        <span class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#head">
           <%= image_tag 'sgc-logo.png', :class => 'logo' %>
-        </span>
+        </a>
       </div>
 
       <ul class="nav navbar-nav navbar-right">
@@ -42,7 +42,7 @@ title: Saigon Cup 2017
         <% if I18n.locale != :en %>
           <li class="xs-left"><a class="language-picker" href="/en">English</a></li>
         <% end %>
-        <li class="xs-right"><a href="<%= register_url %>" class="register btn"><%= t('register') %></a></li>
+        <li class="xs-right"><a target="_blank" rel="noopener" href="<%= register_url %>" class="register btn"><%= t('register') %></a></li>
       </ul>
     </div>
   </nav>
@@ -60,7 +60,7 @@ title: Saigon Cup 2017
     </div>
     <div class="row text-center">
       <div class="col-xs-12">
-        <a href="<%= register_url %>" class="btn register-now" href="#"><%= t('register_now') %></a>
+        <a target="_blank" rel="noopener" href="<%= register_url %>" class="btn register-now"><%= t('register_now') %></a>
       </div>
     </div>
   </div>
@@ -106,7 +106,7 @@ title: Saigon Cup 2017
     </div>
 
     <div class="col-xs-12">
-      <a href="<%= register_url %>" class="btn register-now" href="#"><%= t('register_now') %></a>
+      <a target="_blank" rel="noopener" href="<%= register_url %>" class="btn register-now"><%= t('register_now') %></a>
     </div>
   </div>
 
@@ -156,12 +156,12 @@ title: Saigon Cup 2017
       <p><%= t('organizers') %></p>
     </div>
     <div class="col-md-3">
-      <a href="https://www.facebook.com/groups/SFVietnam/">
+      <a target="_blank" rel="noopener" href="https://www.facebook.com/groups/SFVietnam/">
         <%= image_tag 'sfvn-logo.png', :class => 'center-block img-responsive' %>
       </a>
     </div>
     <div class="col-md-3">
-      <a href="https://www.facebook.com/SaigonFGC/">
+      <a target="_blank" rel="noopener" href="https://www.facebook.com/SaigonFGC/">
         <%= image_tag 'sgfgc-logo.png', :class => 'center-block img-responsive' %>
       </a>
     </div>
@@ -245,19 +245,19 @@ title: Saigon Cup 2017
       </div>
 
       <div class="col-xs-12 col-sm-4">
-        <a class="social-link facebook" href="https://www.facebook.com/SaigonFGC/">
+        <a class="social-link facebook" target="_blank" rel="noopener" href="https://www.facebook.com/SaigonFGC/">
           <span>SAIGONFGC</span>
           <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
         </a>
       </div>
       <div class="col-xs-12 col-sm-4">
-        <a class="social-link twitter" href="https://twitter.com/hismit3rd">
+        <a class="social-link twitter" target="_blank" rel="noopener" href="https://twitter.com/hismit3rd">
           <span>HISMIT3RD</span>
           <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
         </a>
       </div>
       <div class="col-xs-12 col-sm-4">
-        <a class="social-link youtube" href="https://www.youtube.com/user/SFVietnam">
+        <a class="social-link youtube" target="_blank" rel="noopener" href="https://www.youtube.com/user/SFVietnam">
           <span>SFVIETNAM</span>
           <svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg>
         </a>
@@ -265,8 +265,8 @@ title: Saigon Cup 2017
 
       <div class="col-xs-12">
         <p class="archives">
-          <span>[<a href="https://www.youtube.com/playlist?list=PLZ-PMUoGSBRTW-Vh0LwISmgqscsqqHcFY">Saigon Cup 2014</a>]</span>
-          <span>[<a href="https://www.youtube.com/playlist?list=PLfMu1efwDKb5n5tWsO-SHVdO_ALZQiYsl">Saigon Cup 2015</a>]</span>
+          <span>[<a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLZ-PMUoGSBRTW-Vh0LwISmgqscsqqHcFY">Saigon Cup 2014</a>]</span>
+          <span>[<a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLfMu1efwDKb5n5tWsO-SHVdO_ALZQiYsl">Saigon Cup 2015</a>]</span>
         </p>
       </div>
 
