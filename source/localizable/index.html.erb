@@ -73,7 +73,9 @@ title: Saigon Cup 2017
       <h1><%= t('what_is_sgc') %></h1>
       <p><%= t('sgc_is') %></p>
       <p><%= t('memorable') %></p>
-      <%= image_tag 'trailer.png', :class => 'trailer center-block img-responsive' %>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="https://www.youtube.com/embed/kqGYbp7OU_w" frameborder="0" allowfullscreen></iframe>
+      </div>
     </div>
   </div>
 
@@ -174,13 +176,27 @@ title: Saigon Cup 2017
       <p><%= t('sponsors') %></p>
     </div>
     <div class="col-md-3">
-      <%= image_tag 'protour-logo.png', :class => 'center-block img-responsive' %>
+      <a target="_blank" rel="noopener" href="http://capcomprotour.com/capcom-pro-tour-2017-details/">
+        <%= image_tag 'protour-logo.png', :class => 'center-block img-responsive' %>
+      </a>
     </div>
     <div class="col-md-3">
-      <%= image_tag 'ps4-logo.png', :class => 'center-block img-responsive' %>
+      <a target="_blank" rel="noopener" href="https://www.playstation.com/en-us/explore/ps4/">
+        <%= image_tag 'ps4-logo.png', :class => 'center-block img-responsive' %>
+      </a>
     </div>
     <div class="col-md-3">
-      <%= image_tag 'twitch-logo.png', :class => 'center-block img-responsive' %>
+      <a target="_blank" rel="noopener" href="https://www.twitch.tv/">
+        <%= image_tag 'twitch-logo.png', :class => 'center-block img-responsive' %>
+      </a>
+    </div>
+  </div>
+
+  <div class="row organizers-row">
+    <div class="col-md-3 col-md-offset-3">
+      <a target="_blank" rel="noopener" href="https://arcadeshock.com/">
+        <%= image_tag 'arcadeshock-logo.png', :class => 'center-block img-responsive' %>
+      </a>
     </div>
   </div>
 
@@ -212,7 +228,9 @@ title: Saigon Cup 2017
       <p><%= t('press') %></p>
     </div>
     <div class="col-md-3">
-      <%= image_tag 'motgame-logo.png', :class => 'center-block img-responsive' %>
+      <a target="_blank" rel="noopener" href="http://motgame.vn/">
+        <%= image_tag 'motgame-logo.png', :class => 'center-block img-responsive' %>
+      </a>
     </div>
   </div>
 
